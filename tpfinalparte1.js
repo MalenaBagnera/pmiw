@@ -1,3 +1,4 @@
+// https://youtu.be/R1jKwD-iZNU
 let imagenes =[];
 let estado = 0;
 let textos =[];
