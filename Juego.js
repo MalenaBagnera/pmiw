@@ -15,7 +15,7 @@ class Juego {
     this.botones["creditos"] = new Boton(80, 380, 120, 50, "Créditos");
     this.botones["volver"] = new Boton(500, 400, 180, 60, "Volver atrás");
 
-    this.fondos = fondos; // asumimos que ya están cargados globalmente
+    this.fondos = fondos; 
   }
 
   reiniciar() {
