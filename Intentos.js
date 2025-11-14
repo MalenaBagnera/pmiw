@@ -1,14 +1,13 @@
 class Intentos {
-
   constructor(maximo) {
     this.maximo = maximo;
     this.cantidad = 0;
   }
 
-  sumar() {
+  sumar(juego) {
     this.cantidad++;
     if (this.cantidad >= this.maximo) {
-      pantalla = "perdiste";
+      juego.pantalla = "perdiste"; // ahora sí cambia la pantalla dentro del juego
     }
   }
 
