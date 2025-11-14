@@ -95,7 +95,7 @@ function dibujarCreditos () {
   text("CRÉDITOS", 120, 50);
   textSize(20);
   text("Juego desarrollado por ", width / 2, 200);
-  text("Malena Bagnera y Carola Forneri ", width / 2, 220);
+  text("Malena Bagnera y Carola Forneris ", width / 2, 220);
   botones ["volver"].mostrar ();
 }
 
