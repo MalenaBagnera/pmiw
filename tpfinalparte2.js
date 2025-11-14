@@ -48,7 +48,7 @@ function dibujarTutorial () {
   textSize (40);
   fill(0, 240, 255);
   textAlign (CENTER);
-  text ("Debes evacuar la planta", width/2, 38);
+  text ("Debes evacuar la planta", width/2, 50);
   textSize (17);
   text ("esta infestada de objetos humanos.", width/2, 85);
   text ("presiona ENTER para iniciar ", width/2, 420);
