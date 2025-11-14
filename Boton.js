@@ -24,7 +24,7 @@ class Boton {
     text(this.texto, this.x, this.y);
   }
 
-  // Verifica si el mouse está sobre el botón
+ 
   estaSobre() {
     return (
       mouseX > this.x - this.ancho / 2 &&
