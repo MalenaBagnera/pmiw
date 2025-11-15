@@ -3,7 +3,7 @@ let media, mounstro, meg;
 let fondos = [];
 let fuente;
 let sonidoInicio;
-let sonidoActivo = true;
+
 
 function preload() {
   fondos["inicio"] = loadImage("data/inicio.png");
