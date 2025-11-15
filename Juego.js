@@ -6,6 +6,7 @@ class Juego {
 
     this.ganaste = false;
     this.pantalla = "inicio";
+    this.sonidoActivo = true;
 
     // Botones del juego
     this.botones = {};
